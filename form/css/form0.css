@@ -1,0 +1,40 @@
+.ds_form_simple,
+.ds_form{
+  min-width: 200px;
+  max-width: 800px;
+  border: 1px solid green;
+  font-size: 12pt;
+  margin: 2px;
+}
+.ds_form select,
+.ds_form input{
+  border: none;
+  border-bottom: 1px solid;
+}
+.ds_form input[type="number"],
+.ds_form input[type="text"]{
+  width: 70px;
+}
+.ds_form .form_head{
+  font-size: 12pt;
+  font-weight: bold;
+  background: lightgray;
+  text-align: center;
+  padding: 2px;
+}
+.ds_form .form_footer{
+  text-align: center;
+}
+.ds_form .form_footer button{
+  width: 100%;
+  margin-top: 5px;
+  background: green;
+  color: white;
+  /* height: 40px; */
+}
+.ds_form .form_content{
+  padding: 5px;
+}
+.ds_form_simple div{
+  display: inline-block;
+}

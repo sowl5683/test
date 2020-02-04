@@ -1,0 +1,10 @@
+.ds_paragh{
+
+}
+.parah_item{
+  border: 0.5px white dashed;
+  display: inline-block;
+}
+.parah_item:hover{
+  border: 0.5px green dashed;
+}

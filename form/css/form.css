@@ -1,0 +1,107 @@
+.ds_form_simple,
+.ds_form{
+  /* width: auto; */
+  max-width: 900px;
+  font-size: 11pt;
+  border-radius:5px;
+  padding: 5px;
+  background: white;
+  line-height: 25px;
+  height: 500px;
+}
+.form_content{
+  border: 2px solid #006699;
+  border-radius: inherit;
+}
+.ds_form fieldset legend{
+  font-weight: bold;
+  color: #3399CC;
+  margin: 2px;
+}
+.ds_form .ds_form_simple,
+.ds_form .ds_form{
+  border : none;
+  padding: 0;
+}
+.ds_form select,
+.ds_form input{
+  border: none;
+  border-bottom: 1px solid;
+  font-size: 11pt;
+}
+/* .ds_form input[type="number"], */
+.ds_form input[type='text']{
+  width: 70px;
+}
+.ds_form .form_head{
+  font-size: 12pt;
+  font-weight: bold;
+  display:inline-block;
+  border-radius:inherit;
+  background: #3399CC;
+/*   text-align: center; */
+  padding: 5px;
+  color:white;
+/* border-bottom : dashed 1px; */
+}
+.ds_form .form_footer{
+  margin-top: 15px;
+  border-radius:inherit;
+}
+.ds_form .form_footer button{
+/*   width: 50%; */
+/*   margin-top: 25px; */
+  background: white;
+  color: #99CCCC;
+  font-weight: bold;
+  border-radius : 5px;
+  height: 30px;
+  min-width : 200px;
+  border : solid #99CCCC 1px;
+}
+.ds_form .form_footer button:active{
+/*   border : solid; */
+  background : #99CCCC;
+  color: white;
+  border-radius : 5px;
+}
+.ds_form .form_content{
+/*   padding: 5px; */
+}
+.ds_form_simple{
+  /* width: 300px; */
+}
+.ds_form_simple input[type='text'],
+.ds_form_simple select{
+  width: 100%;
+}
+.form_multisel,
+.form_multisel_item {
+  display: inline-block;
+}
+
+.ds_form table{
+  border: 1px solid;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td{
+  border: 0.5px solid;
+  margin: 0;
+  padding: 0;
+}
+.ds_form th{
+  text-align: center;
+}
+.ds_form tr{
+  height: 40px;
+}
+.ds_form td {
+  padding: 5px;
+  max-width: 120px;
+}
+.state_active{
+  border-color: green;
+}
+/* editor style*/
